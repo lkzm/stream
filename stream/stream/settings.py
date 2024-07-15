@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'stream.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'streamdb',
+        'USER': 'lkz',
+        'PASSWORD': '502132',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
