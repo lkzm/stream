@@ -78,7 +78,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'streamdb',
         'USER': 'lkz',
-        'PASSWORD': '502132',
+        'PASSWORD': '592132',
         'HOST': 'localhost',
         'PORT': '',
     }
